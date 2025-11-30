@@ -6,6 +6,13 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
+  // Passthrough copy for favicons
+  eleventyConfig.addPassthroughCopy({ "favicon.ico": "favicon.ico" });
+  eleventyConfig.addPassthroughCopy({ "favicon.png": "favicon.png" });
+
+  // Passthrough copy for simple.min.css
+  eleventyConfig.addPassthroughCopy({ "assets/css/simple.min.css": "assets/css/simple.min.css" });
+
   // Collection: all short links
   eleventyConfig.addCollection("shortlinks", function(collectionApi) {
     return collectionApi.getFilteredByGlob("./urls/*.md");

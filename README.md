@@ -3,3 +3,12 @@ By the powers of [1y](https://github.com/nhoizey/1y) and [findth.at](https://git
 
 ## Acknowledgements
 my deepests gratitutde and apologies to everyone involved. [@Nhoizey](https://github.com/nhoizey) and [@philhawksworth](https://github.com/philhawksworth) you are both brilliant and incredible web devlopers, thank you for shipping such wonderful open source projects.
+
+## Changelog
+1. Organize the folders 
+    1. /content
+    2. /css/
+    3. /public
+2. add CMS - Sanity or DECAP
+3. Switch to ESM from CommonMark
+4. add compression

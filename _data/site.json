@@ -15,6 +15,10 @@
         "url": "/about/"
       },
       {
+        "nav": "Contact",
+        "url": "/pages/contact/"
+      },
+      {
         "nav": "Links",
         "url": "/links/"
       }
@@ -23,10 +27,10 @@
   "footer": {
     "info": [
       {
-        "text": "https://purl.im/ was created by <a href='https://adamdjbrett.com'>Adam Dj Brett</a> built with <a href='https://11ty.dev'>11ty</a>"
+        "text": "https://purl.im/ was created by <a href='https://adamdjbrett.com'>Adam DJ Brett</a> built with <a href='https://11ty.dev'>11ty</a>"
       },
       {
-        "text": "Copyrights Adam Dj Brett"
+        "text": "CC BY-NC 4.0. Built with 🎈 11ty"
       }
     ]
   }

@@ -39,6 +39,9 @@ module.exports = function(eleventyConfig) {
   // Passthrough copy for simple.min.css
   eleventyConfig.addPassthroughCopy({ "assets/css/simple.min.css": "assets/css/simple.min.css" });
 
+	// Ensure xmit configuration ships with the build output
+	eleventyConfig.addPassthroughCopy("xmit.json");
+
   // Collection: all short links
   eleventyConfig.addCollection("shortlinks", function(collectionApi) {
     return collectionApi.getFilteredByGlob("./urls/*.md");

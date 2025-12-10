@@ -1,5 +1,33 @@
 {
   "title": "Permanent URL Sites",
   "description": "A linkshortner and collection of useful links and resources.",
-  "baseUrl": "https://purl.im"
+  "baseUrl": "https://purl.im",
+  "favicon": "/favicon.ico",
+  "image": "made-with-11ty.gif",
+  "navbar": {
+    "item": [
+      {
+        "nav": "Home",
+        "url": "/"
+      },
+      {
+        "nav": "About",
+        "url": "/about/"
+      },
+      {
+        "nav": "Links",
+        "url": "/links/"
+      }
+    ]
+  },
+  "footer": {
+    "info": [
+      {
+        "text": "https://purl.im/ was created by <a href='https://adamdjbrett.com'>Adam Dj Brett</a> built with <a href='https://11ty.dev'>11ty</a>"
+      },
+      {
+        "text": "Copyrights Adam Dj Brett"
+      }
+    ]
+  }
 }

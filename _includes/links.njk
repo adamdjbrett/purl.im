@@ -1,8 +1,7 @@
 ---
-title: "Shortlinks"
 layout: base.njk
 ---
-
+{{content|safe}}
 <ul>
 {% set sorted = collections.shortlinks | sort(attribute='fileSlug') %}
 {% for link in sorted %}

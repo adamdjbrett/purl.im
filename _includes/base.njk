@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ title or 'Shortlinks' }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" type="text/css" href="/assets/css/simple.min.css">
+{% include "partials/seo.njk" %}
 </head>
 <body>
-  <main>
-    <h1>{{ title or 'Shortlinks' }}</h1>
-    {{ content | safe }}
-  </main>
+{% include "partials/header.njk" %}
+<main>{{ content | safe }}</main>
+{% include "partials/footer.njk" %}
 </body>
 </html>

@@ -2,7 +2,7 @@ content:
   - name: urls
     label: Shortlinks
     path: content/urls
-    type: file
+    type: collection
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: url, label: Destination URL, type: string, required: true }
